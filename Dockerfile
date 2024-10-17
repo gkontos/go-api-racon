@@ -1,5 +1,5 @@
 #build executable 
-FROM golang:1.22@sha256:ddad33062f94a276b78c1d536b70d23f5d2548f619e3dd67aa5972bb415fe648 as build-env
+FROM golang:1.22@sha256:5951dc7f77d05e0aea10027e1d9d7d9a343ec955f5ccb7cba7e733ff90bd2578 as build-env
 
 # git is installed to allow dependency installation from git sources
 RUN apt update && apt install git
